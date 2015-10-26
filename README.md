@@ -1,0 +1,2 @@
+# rapidcore
+Rapidtrade Core
