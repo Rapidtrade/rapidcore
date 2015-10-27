@@ -578,7 +578,7 @@ coreApp.directive("jsonfields", function(DaoSvc, GlobalSvc, $http, Settings, $mo
         '           <th>Options</th>' +
         '           <th>TemplateRow</th>' +
         '           <th>TemplateColumn</th>' +
-        
+
         '       </tr>' +
         '       <tr ng-repeat="row in fields">' +
         '           <td>{{row.Name}}</td>' +
@@ -595,7 +595,7 @@ coreApp.directive("jsonfields", function(DaoSvc, GlobalSvc, $http, Settings, $mo
         '           </td>' +
         '           <td><input ng-model="row.TemplateRow" class="form-control" id="{{row.TemplateRow}}" type="text" style="width:60px;"></td>' +
         '           <td><input ng-model="row.TemplateColumn" class="form-control" id="{{row.TemplateColumn}}" type="text" style="width:60px;"></td>' +
-        
+
         '       </tr>' +
         '</table></div>' +
         '<span style="display: inline-block;"><button id="saveBtn" class="btn btn-success">Save</button><button id="cancelBtn" class="btn btn-warning" style="margin-left:10px;">Cancel</button>' +
