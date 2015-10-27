@@ -1,0 +1,17 @@
+{
+    "name" : "rapidcore",
+    "version" : "0.0.1",
+    "main"  : "dist",
+    "ignore" : [
+        "source",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        ".jshintignore",
+        ".jshintrc",
+        "bower.json",
+        "gruntfile.js",
+        "package.json",
+        "README.md"
+    ]
+}
